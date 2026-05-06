@@ -11,17 +11,30 @@
 <body>
 
 <header>
-    <h1 align="center"> LearnCode Hub</h1>
-    <p align="center"><i>Learn how to code with us!</i></p>
-</header>
+        <div align="center">
+            <table width="100%" bgcolor="#0e4b63" cellpadding="20">
+                <tr>
+                    <th>
+                        <font color="white" size="8">
+                            <strong>Learn CodeHub</strong>
+                        </font>
+                        <br>
+                        <font color="white" size="4">
+                            <i>Learn how to code with us!</i>
+                        </font>
+                    </th>
+                </tr>
+            </table>
+        </div>
+    </header>
 
 <hr>
 
 <nav align="center">
-    <a href="#intro">Introduction</a> |
+    <a href="Main.html">Home</a> |
     <a href="#languages">Languages</a> |
-    <a href="#resources">Resources</a> |
-    <a href="#form">Join</a>
+    <a href="Register.html" target="_blank">Join</a> |
+    <a href="#resources">Resources</a>
 </nav>
 
 <hr>
@@ -226,71 +239,8 @@
 
 <hr>
 
-
-<section id="form">
-    <h2>Join the Course</h2>
-
-    <form>
-
-        <label>Name:</label><br>
-        <input type="text" placeholder="Enter name"  maxlength="30" minlength="5" required><br><br>
-
-        <label>Email:</label><br>
-        <input type="email" placeholder="name87@example.com" required><br><br>
-
-        <label>Phone number:</label>
-        <input type="tel" id="phone number" placeholder="09********" required><br><br>
-
-        <label>Password:</label>
-        <input type="password"><br><br>
-
-        <label>Birthdate:</label>
-        <input type="date" id="bday" ><br><br>
-        <label>Grade:</label>
-        <input type="number" min="0" max="12" value="1" step="1"><br><br>
-
-        <label>Gender:</label>
-        <label>Male</label>
-        <input type="radio" value="Mr." name="title">
-        <label>Female</label>
-        <input type="radio" value="Ms." name="title">
-        <br><br>
-
-        <label name="gender">Choose Programing language:</label><br>
-        <select name="gender">
-            <option value="HTML">HTML</option>
-            <option value="Python" selected>Python</option>
-            <option value="Other">C++</option>
-        </select><br><br>
-        <label>Level:</label><br>
-        <input type="radio" name="lvl"> Beginner
-        <input type="radio" name="lvl"> Advanced<br><br>
-
-        <label>Skills:</label><br>
-        <input type="checkbox"> Problem Solving
-        <input type="checkbox"> Logic<br><br>
-
-        <label>Theme you like:</label>
-        <input type="color" default><br><br>
-
-        <label>Time to spend:</label>
-        <input type="range" min="0" max="100" value="50"><br><br>
-
-        <label>Message you want to add:</label><br>
-        <textarea rows="8" cols="30"></textarea><br><br>
-
-        <label>Attach your background here :</label>
-        <input type="file" accept="image/jpg,image/png">
-        <br><br>
-
-        <input type="submit">
-        <input type="reset">
-
-    </form>
-</section>
-
 <article>
-    <p><a href="#" target="_blank">Check out our resources!</a></p>
+    <p><a href="Register.html" target="_blank"><b>Register now!</b></a></p>
     <p> <a href="#top">Back to Top</a></p>
 </article>
 
